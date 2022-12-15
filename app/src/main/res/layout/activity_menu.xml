@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMenu"
+    android:background="@drawable/fondo_degradado">
+
+    <Button
+        android:id="@+id/btnNuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo"
+        android:background="@drawable/button_rounder"
+        android:layout_marginBottom="15dp"
+        android:drawableEnd="@drawable/ic_registrar"/>
+
+    <Button
+        android:id="@+id/btnInfoPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info. Postulante"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_rounder"
+        android:drawableEnd="@drawable/ic_info"/>
+
+    <Button
+        android:id="@+id/btnListPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de postulantes"
+        android:background="@drawable/button_rounder"
+        android:drawableEnd="@drawable/ic_info"/>
+
+</LinearLayout>
